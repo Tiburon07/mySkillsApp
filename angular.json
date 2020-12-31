@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "mySkillsApp"
+  "defaultProject": "mySkillsApp",
+  "cli": {
+    "analytics": "23ebe23a-3e93-410b-9ce9-ff1701ba05af"
+  }
 }
