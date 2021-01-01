@@ -10,6 +10,11 @@ button.delete {
     color: red;
 }
 
+button.update {
+  background: #fff;
+  color: forestgreen;
+}
+
 button{
     padding: 5px;
     border: 1px solid #222;

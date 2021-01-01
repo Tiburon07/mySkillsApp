@@ -1,3 +1,17 @@
-<h1>User Management System</h1>
+<!--<h1>User Management System</h1>
 
-<app-users></app-users>
+<div class="main">
+  <div class="users">
+    <app-users (updateUser)="updateUser($event)"></app-users>
+  </div>
+  <div *ngIf="userSelected">
+    <app-user-detail class="userDetail" [user]="userSelected"></app-user-detail>
+  </div>
+</div>-->
+<div class="wrapper">
+  <app-navbar></app-navbar>
+  <app-sidebar></app-sidebar>
+  <app-content></app-content>
+  <app-footer></app-footer>
+  <app-control-sidebar></app-control-sidebar>
+</div>
